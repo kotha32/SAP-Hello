@@ -1,6 +1,11 @@
 Setting Up a Simple Node.js Application for Cloud Foundry
+
+
 1.Create a new directory (folder) on your local file system:
+
+
 mkdir node-tutorial
+
 
 2.Open the node-tutorial folder in Visual Studio Code.
 
