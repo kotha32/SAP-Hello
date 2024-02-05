@@ -6,7 +6,7 @@ From your Visual Studio Code, open the node-tutorial folder.
 
 In this folder, create a file manifest.yml with the following content:
 
-YAMLCopy
+<h1>YAMLCopy</h1>
 ---
 applications:
 - name: myapp
@@ -72,14 +72,13 @@ JSONCopy
 }
 Inside the myapp folder, create a file start.js with the following content:
 
-JavaScriptCopy
+<h1>JavaScriptCopy</h1>
+
 const express = require('express');
 const app = express();
-
 app.get('/', function (req, res) {
   res.send('Hello World!');
 });
-
 const port = process.env.PORT || 3000;
 app.listen(port, function () {
   console.log('myapp listening on port ' + port);
